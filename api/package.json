@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "biguint-format": "^1.0.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "get-port": "^5.0.0",
+    "is-port-reachable": "^2.0.0",
+    "mongoose": "^5.4.22",
+    "mongoskin": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "description": ""
+}
